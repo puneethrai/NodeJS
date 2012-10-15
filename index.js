@@ -11,6 +11,8 @@ var server = http.createServer();
 var port = process.env.PORT || 8888;
 var app = server.listen(port);
 
+console.log("Listening to port"+port);
+
 /**
  * Import socket.io module
  * on the server HTTP
