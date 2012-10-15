@@ -2,7 +2,7 @@
   "name": "NodeJS_RoomManagement_Server",
   "version": "0.0.1",
   "dependencies": {
-    "socket.io": "0.9.x"
+    "socket.io": "0.9.6"
   },
   "engines": {
     "node": "0.8.x",
