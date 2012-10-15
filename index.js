@@ -8,7 +8,8 @@
  */
 var http = require("http");
 var server = http.createServer();
-var app = server.listen(8888);
+var port = process.env.PORT || 8888;
+var app = server.listen(port);
 
 /**
  * Import socket.io module
